@@ -1,0 +1,23 @@
+body {
+    text-align: left;
+    padding: 40px;
+}
+h1 {
+    color: white;
+    size: 40px;
+    text-align: center;
+    background-color: blue;
+    padding: 40px;
+}
+input {
+    width: 80%;
+    margin: 0px 0px 0px 100px;
+}
+label {
+    margin: 0px 0px 0px 100px;
+}
+#search {
+    text-align: center;
+    margin: 0px 0px 0px 100px;
+}
+
