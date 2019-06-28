@@ -16,11 +16,11 @@
                 <label for="name">Search Terms <br> </label>
                 <input id='searchTerms' type="search" placeholder="insert search here"> <br> <br>
                 <label for="name">Number of Records to Retrieve <br> </label>
-                <input id='numberOfRecords'type="password" placeholder="5"> <br> <br>
+                <input id='numberOfRecords'type="password" placeholder="X"> <br> <br>
                 <label for="name">Start Year (optional)<br> </label>
-                <input id='startYear'type="password" placeholder="1950"> <br> <br>
+                <input id='startYear'type="password" placeholder="YYYY"> <br> <br>
                 <label for="name">End Year (optional)<br> </label>
-                <input id='endYear'type="password" placeholder="2019"> <br> <br>
+                <input id='endYear'type="password" placeholder="YYYY"> <br> <br>
         
 
                 
@@ -29,6 +29,9 @@
                 <button id='clearSearch'type="submit" class="pure-button pure-button-primary">Clear Results</button>
             </fieldset>
         </form>
-    
+    <div>
+        <p id="search-results"></p>
+    </div>
+
 </body>
 </html>
